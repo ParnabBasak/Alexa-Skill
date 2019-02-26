@@ -6,6 +6,7 @@ const Alexa = require('ask-sdk-core');
 const LaunchRequestHandler = {
   canHandle(handlerInput) {
     //Just a comment
+    //Another Commit
     return handlerInput.requestEnvelope.request.type === 'LaunchRequest';
 
   },
